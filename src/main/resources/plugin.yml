@@ -1,0 +1,12 @@
+name: SafeKill
+#名前にスペース入れるとロードされないぞ
+version: 1.0.0
+description: Protects "kill @e" command 
+author: fues
+website: 
+#---
+#api-version: 1.13
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#     ServerCommandEvent doesn't work in api-version: 1.13
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+main: fues_ele.spigot.safe_kill.SafeKill
